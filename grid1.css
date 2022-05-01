@@ -7,7 +7,7 @@ body {
 
 .wrapper {
     width: 100%;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Raleway', sans-serif;
     text-align: center; 
    
 }
@@ -17,6 +17,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     margin: 80px;
+    
 }
 .wrapper .header .user-Info {
     display: flex;
