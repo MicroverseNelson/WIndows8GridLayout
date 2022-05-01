@@ -1,0 +1,103 @@
+body {
+    color: #000;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center; 
+} 
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-auto-rows: minmax(50px, auto);
+    grid-gap:5px;
+    max-width: 980px;
+    margin: 0 auto;
+    grid-template-areas: 
+    "mail mail calender calender internet store earth earth"
+    "people people picture picture maps skydrive travel travel"
+    "messaging messaging finance finance sports sports games camera"
+    "desktop desktop weather weather news news music videos";
+}
+.wrapper >* {
+    background-color: aqua;
+    padding: 30px;
+}
+
+.mail {
+    grid-area: mail;
+}
+
+.calender {
+    grid-area: calender;
+}
+
+.internet {
+    grid-area: internet;
+}
+
+.store {
+    grid-area: store;
+}
+
+.earth {
+    grid-area: earth;
+}
+
+.people {
+    grid-area: people;
+}
+
+.picture {
+    grid-area: picture;
+}
+
+.maps {
+    grid-area: maps;
+}
+
+.skydrive {
+    grid-area: skydrive;
+}
+
+.travel {
+    grid-area: travel;
+}
+
+.messaging {
+    grid-area: messaging;
+}
+
+.finance {
+    grid-area: finance;
+}
+
+.sports {
+    grid-area: sports;
+}
+
+.games {
+    grid-area: games;
+}
+
+.camera {
+    grid-area: camera;
+}
+.desktop {
+    grid-area: desktop;
+}
+
+.weather {
+    grid-area: weather;
+}
+
+.news {
+    grid-area: news;
+}
+
+.music {
+    grid-area: music;
+}
+
+.videos {
+    grid-area: videos;
+}
+
